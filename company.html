@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width
+      , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> car</title>
+        <script src="https://kit.fontawesome.com/ca79185921.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="main.html"><img src="logo.jpeg" width="10%" height="50vh"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="login.html">LOG IN</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="company.html">COMPANY</a></li>
+                    <li><a href="compare.html">COMPARE</a></li>
+                    <li><a href="cnotact.html">CONTACT</a></li>
+                    <li><a href="members.html">ABOUT US</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()" style="margin: 130 "></i>
+        </nav>
+        <div class="text-box">
+            <h1 style="top: 18%;" > The Foumc Company</h1><!--تتغير-->
+           
+        </div>
+        
+    </section>
+    <!----JS for menu-->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+       </script>
+<hr>
+   <section>
+    <div class=" comp">
+        <section> <h1> Toyota </h1>
+        <ul>
+       <li> camry </li>
+            <li>corolla </li>
+     
+           </ul> <br> </section> 
+        
+            <section>
+           <h1> Mercedes </h1>
+            <ul>
+                <li> Mercedes Benz EQC </li>
+                <li>Mercedes Benz S-Class </li> 
+                </ul> <br> <br> </section>
+                <section>  <h1> Hyundai </h1>  
+                <ul>
+                    <li> Sonata </li>
+                    <li> Elantra </li>  
+                    </ul>   </section>
+                     </div>
+
+                <div class="image">
+                  
+                   
+                    <img   src="cars imag/EQC.jpeg"> 
+                    <img  src="cars imag/mercedes.jpeg">
+                    <img  src="cars imag/toyota camry.jpeg">
+                </div></section>
+                
+               
+
+</body></html>
+                
+    
